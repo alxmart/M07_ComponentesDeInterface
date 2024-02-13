@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">M07_ComponentesDeInterface</string>
-    <string name="btnjogarText">Jogar</string>
+    <string name="btnjogarText">Play</string>
 </resources>
