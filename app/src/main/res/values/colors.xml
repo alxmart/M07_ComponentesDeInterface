@@ -7,6 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <!-- Cores Customizadas -->
     <color name="amarelo">#FFFFEB3B</color>
+
+    <!-- Cores secundárias -->
+    <color name="secundaria">#8bc34a</color>
+    <color name="fundo">#959595</color>
+
+    <!-- Cores Customizadas para o tema -->
+    <color name="primaria">#e91e63</color>
+    <color name="primaria_variacao">#673AB7</color>
+    <color name="texto_primaria">#FFFFEB3B</color>
+
+
+
 </resources>
