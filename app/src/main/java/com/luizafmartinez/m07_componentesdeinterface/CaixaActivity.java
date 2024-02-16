@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 public class CaixaActivity extends AppCompatActivity {
 
     @Override
@@ -15,9 +17,14 @@ public class CaixaActivity extends AppCompatActivity {
 
         Button btnSalvar = findViewById(R.id.btn_salvar);
 
-        btnSalvar.setOnClickListener(v ->
-                System.out.println("Botão foi clicado")
-        );
+        TextInputEditText email = findViewById(R.id.edit_email);
+
+        btnSalvar.setOnClickListener(v -> {
+
+            String emailusuario = email.getText().toString();
+            //System.out.println("Botão foi clicado");
+            System.out.println("E-mail selecionado: " + emailusuario);
+        });
 
     }
 }
